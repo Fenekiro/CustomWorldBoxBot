@@ -1,6 +1,6 @@
 import discord
 
-token = "MTM5MjI4OTE4MDk3Njk0MzE3NA.GCSyok.vwsU2a5nZvGw5maXrm-ycsn7_dyfLQmGbo36UE"
+token = ""
 bot = discord.Bot(discord_intents=discord.Intents.all())
 
 
