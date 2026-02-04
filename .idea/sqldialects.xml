@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/app/sql_api/sql/core/games.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/sql_api/sql/core/players.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/sql_api/sql/core/researches.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/sql_api/sql/core/wars.py" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/sql_api/sql/setup.py" dialect="GenericSQL" />
+  </component>
+</project>

@@ -1,0 +1,230 @@
+[
+  {
+    "id": 1,
+    "name": "Медведь",
+    "minutes_to_complete": 3,
+    "required_researches": [],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 2,
+    "name": "Демон",
+    "minutes_to_complete": 10,
+    "required_researches": [
+      1
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 3,
+    "name": "Огненная башня",
+    "minutes_to_complete": 15,
+    "required_researches": [
+      2
+    ],
+    "mutually_exclusive_researches": [
+      5
+    ]
+  },
+  {
+    "id": 4,
+    "name": "НЛО",
+    "minutes_to_complete": 30,
+    "required_researches": [
+      3
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 5,
+    "name": "Некромант",
+    "minutes_to_complete": 15,
+    "required_researches": [
+      2
+    ],
+    "mutually_exclusive_researches": [
+      3
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Маг зла",
+    "minutes_to_complete": 25,
+    "required_researches": [
+      5
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 11,
+    "name": "Торнадо",
+    "minutes_to_complete": 10,
+    "required_researches": [],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 12,
+    "name": "Лавовое облако",
+    "minutes_to_complete": 10,
+    "required_researches": [
+      11
+    ],
+    "mutually_exclusive_researches": [
+      13
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Вулкан",
+    "minutes_to_complete": 25,
+    "required_researches": [
+      11
+    ],
+    "mutually_exclusive_researches": [
+      12
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Землетрясение",
+    "minutes_to_complete": 25,
+    "required_researches": [
+      12,
+      13
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 15,
+    "name": "Метеорит",
+    "minutes_to_complete": 20,
+    "required_researches": [
+      14
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 21,
+    "name": "Проклятие",
+    "minutes_to_complete": 10,
+    "required_researches": [],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 22,
+    "name": "Зомби-вирус",
+    "minutes_to_complete": 20,
+    "required_researches": [
+      21
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 23,
+    "name": "Безумие",
+    "minutes_to_complete": 50,
+    "required_researches": [
+      22
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 24,
+    "name": "Кровавый дождь",
+    "minutes_to_complete": 5,
+    "required_researches": [],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 25,
+    "name": "Благословение",
+    "minutes_to_complete": 10,
+    "required_researches": [
+      24
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 26,
+    "name": "Божественный свет",
+    "minutes_to_complete": 40,
+    "required_researches": [
+      25
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 27,
+    "name": "Мощносил",
+    "minutes_to_complete": 60,
+    "required_researches": [
+      26
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 31,
+    "name": "Граната",
+    "minutes_to_complete": 10,
+    "required_researches": [],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 32,
+    "name": "ТНТ",
+    "minutes_to_complete": 10,
+    "required_researches": [
+      31
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 33,
+    "name": "Бомба",
+    "minutes_to_complete": 25,
+    "required_researches": [
+      31
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 34,
+    "name": "Напалм",
+    "minutes_to_complete": 20,
+    "required_researches": [
+      33
+    ],
+    "mutually_exclusive_researches": [
+      36
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Антиматериальная бомба",
+    "minutes_to_complete": 40,
+    "required_researches": [
+      34
+    ],
+    "mutually_exclusive_researches": []
+  },
+  {
+    "id": 36,
+    "name": "Ядерная бомба",
+    "minutes_to_complete": 90,
+    "required_researches": [
+      35
+    ],
+    "mutually_exclusive_researches": [
+      34
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Царь-бомба",
+    "minutes_to_complete": 150,
+    "required_researches": [
+      36
+    ],
+    "mutually_exclusive_researches": []
+  }
+]

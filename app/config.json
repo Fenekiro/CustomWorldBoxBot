@@ -1,0 +1,13 @@
+{
+  "current_game_id": 10,
+  "game_session_is_open": false,
+  "commands_chat_id": 1397908234479730768,
+  "events_chat_id": 1397908289827901561,
+  "registration_for_game_chat_id": 1397908173012074557,
+  "admin_ids": [
+    725527674717732894,
+    428036906723573760
+  ],
+  "debug_chat_id": 1397910660486139984,
+  "game_role_id": 1397910692828549130
+}
